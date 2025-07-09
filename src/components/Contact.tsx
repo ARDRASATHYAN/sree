@@ -8,7 +8,13 @@ import emailjs from 'emailjs-com'
 const handleSubmit = (e: React.FormEvent) => {
   e.preventDefault()
 
-  emailjs.sendForm('service_50ogjqr', 'template_3vtjw7o', e.target as HTMLFormElement, 'e1Of1Uo5QjGMGd9Cp')
+emailjs.sendForm(
+  import.meta.env.VITE_EMAILJS_SERVICE_ID,
+  import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+  e.target as HTMLFormElement,
+  import.meta.env.VITE_EMAILJS_USER_ID
+)
+
     .then(() => {
       alert('Message sent successfully!')
     })
