@@ -1,5 +1,4 @@
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import EducationPage from './components/EducationPage';
 import ProjectDetailsPage from './components/ProjectDetailsPage';

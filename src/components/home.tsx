@@ -3,7 +3,7 @@ import { useRef } from 'react'
 import * as THREE from 'three'
 import ParticleCanvas from './ParticleField'
 import {
-  FaEnvelope,
+
   FaGithub,
   FaInstagram,
   FaLinkedin,
