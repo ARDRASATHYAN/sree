@@ -10,7 +10,6 @@
     "preview": "vite preview",
     "prepare": "husky install"
   },
- 
   "dependencies": {
     "@radix-ui/react-navigation-menu": "^1.2.13",
     "@react-three/drei": "^10.4.4",
@@ -42,13 +41,13 @@
     "globals": "^16.3.0",
     "husky": "^8.0.0",
     "prettier": "^3.6.2",
+    "rollup": "^3.29.5",
     "tw-animate-css": "^1.3.5",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.36.0",
-    "vite": "^7.0.3"
+    "vite": "^5.4.19"
   },
   "engines": {
-  "node": "20.x"
-}
-
+    "node": "20.x"
+  }
 }
